@@ -1,0 +1,66 @@
+nav.navbar{background-image: linear-gradient(141deg,#5d4b52 0,#efd3c6 71%,#c37973 100%);}
+.stuff{ 
+position: absolute;
+left: calc(50% + 200px); } 
+
+.icon{font-size:4em;}
+
+.test{    background: #ffeb3bad;
+width: 55%;
+height: 78vh;
+transition: all 3s ease;
+background-image: url(png.png);
+bottom: -101px;
+left: -255px;
+background-repeat: no-repeat;
+background-position: 0px -121px;
+position: absolute;
+border-radius: 10px;
+transform: rotate(37deg);}
+.test:hover {
+
+
+background-image: url(hru.jpg);
+bottom: 0px;
+left: 140px;
+/*opacity: 0.5;*/
+transform: rotate(0);
+
+
+}
+#text{    float: right;
+padding: 2em;
+font-size: 3em;
+position: relative;
+font-weight: bolder;
+color: #877273;} 
+body { font-family: 'Angkor', cursive;} 
+.navbar.is-primary .navbar-brand>a.navbar-item:hover {
+background-image: linear-gradient(141deg,#000,#ff17008a 71%,#000000a1 100%);
+color: #fff;
+}    
+::-webkit-scrollbar {
+width: 2.5px;}
+.pizda {
+background: #ffeb3bad;
+width: 570px;
+height: 78vh;
+transition: all 3s ease;
+background-image: url(pizda.png);
+bottom: -170px;
+right: -199px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: 0px 0px;
+position: absolute;
+transform: rotate(-53deg);
+border-radius: 35px;
+}
+.pizda:hover
+{background-image: url(pizda.png);
+bottom: 0px;
+right: 140px;
+border: 10px solid #ffeb3bad;
+border-bottom: 0;
+transform: rotate(0);
+background-color:transparent;}
